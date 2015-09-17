@@ -1,0 +1,206 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 30, 2014, 7:10:33 PM
+    Author     : Edwin
+*/
+
+
+#sales_pos_div_right,#sales_prospect_div_right {
+    float:right;
+}
+
+
+@media (max-width: 767px) {
+    #sales_pos_div_right,#sales_prospect_div_right {
+        float:none;
+    }
+}
+
+.pos {
+    font-size: 12px !important;
+}
+.pos-section{
+    width:100%
+}
+.pos-product-search{
+    width:100%;
+    max-width:170px;
+}
+
+@media (max-width: 767px) {
+    .pos-product-search {
+        width:170px;
+        max-width:170px;
+    }
+}
+
+.pos-warehouse-search{
+    width:100%;
+    max-width:150px;
+}
+
+@media (max-width: 767px) {
+    .pos-warehouse-search {
+        width:100px;
+        max-width:100px;
+    }
+}
+
+.pos-status{
+    width:100%;
+    max-width:150px;
+}
+
+@media (max-width: 767px) {
+    .pos-status {
+        width:100px;
+        max-width:100px;
+    }
+}
+
+.pos-unit-search{
+    width:100%;
+    max-width:80px;
+}
+
+@media (max-width: 767px) {
+    .pos-unit-search {
+        width:100%;
+        max-width:80px;
+    }
+}
+
+.pos-table{
+    font-size:11px !important;
+}
+
+.pos-table>tbody>tr, .pos-table>tfoot>tr{
+    height:39px;
+}
+
+
+
+.pos-table>tbody>tr>td, .pos-table>tfoot>tr>td{
+    padding:2px !important;
+    border-left:0px;
+    border-right:0px;
+    vertical-align: middle;
+    
+}
+
+.pos-table>tfoot>tr>td{
+    border-bottom:0px;
+    border-top:0px;
+}
+.pos-table>tfoot>tr:first-child>td{
+    border-top:1px solid #ddd;
+}
+
+
+.pos-table>thead>tr>th{
+    border-left:0px;
+    border-right:0px;
+}
+
+.pos-table>tfoot>tr>td{
+    padding:2px !important;
+    border-left:0px;
+    border-right:0px;
+    
+}
+
+.pos-table>tbody>tr>td>span,
+.pos-table>tfoot>tr>td>span{
+    padding:8px;
+}
+
+.pos-table-row-num{
+    width:30px;
+    min-width:30px;
+}
+.pos-table-status{
+    width:170px;
+    min-width:170px;
+}
+.pos-table-action{
+    min-width:50px;
+    width:50px;    
+}
+.pos-table-product-img{
+    width:110px;
+    min-width:110px
+}
+
+.pos-product-table-product{
+    width:170px;
+    min-width:170px
+}
+.pos-product-table-total-stock{
+    width:70px;text-align:right;
+    min-width:70px
+}
+.pos-product-table-mult-qty{
+    width:50px;text-align:right;
+    min-width:50px
+}
+.pos-product-table-qty{
+    width:100px;text-align:right;
+    min-width:100px;
+}
+.pos-product-table-unit{
+    min-width:65px;
+}
+.pos-product-table-expedition-weight{
+    width:100px;text-align:right;
+    min-width:100px;
+}
+
+.pos-product-table-amount{
+    width:100px;text-align:right;
+    min-width:100px;
+}
+.pos-product-table-subtotal{
+    width:120px;text-align:right;
+    min-width:120px;
+}
+
+.pos-movement-table-code{
+    width:150px;
+    min-width:150px;
+}
+.pos-movement-table-date{
+    width:200px;
+    min-width:200px;
+}
+.pos-movement-table-status{
+    width:150px;
+    min-width:150px;
+}
+.pos-table input,.pos-table span{
+    font-size:11px !important;
+}
+
+.final_movement_product{
+    width:40%;float:left;
+
+}
+@media (max-width: 767px) {
+    .final_movement_product {
+        width:100%;
+    }
+}
+
+.final_movement_qty{
+    
+    width:60%;float:left;
+}
+
+@media (max-width: 767px) {
+    .final_movement_qty {
+        width:100%;
+    }
+}
